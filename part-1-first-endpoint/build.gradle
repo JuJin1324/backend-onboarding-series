@@ -1,0 +1,7 @@
+bootJar {
+    enabled = true // 이 모듈을 실행 가능한 Jar로 만듭니다.
+}
+
+jar {
+    enabled = false
+}
