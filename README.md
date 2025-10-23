@@ -17,12 +17,12 @@ backend-onboarding-series/
 ### 방법 1: 인텔리제이(IntelliJ)로 실행하기 (초보자 추천)
 
 1.  **인텔리제이에서 프로젝트 가져오기:**
-    -   인텔리제이 시작 화면에서 `Get from VCS` 버튼을 클릭합니다.
+    -   인텔리제이 시작 화면에서 `Get from VCS` 혹은 `Clone Repository` 버튼을 클릭합니다.
     -   `URL`에 이 저장소의 주소(`https://github.com/jujin1324/backend-onboarding-series.git`)를 붙여넣고 `Clone` 버튼을 누릅니다.
 
 2.  **올바른 버전(태그)으로 전환하기:**
     -   프로젝트가 열리면, 인텔리제이 창의 **오른쪽 하단**에서 현재 Git 브랜치 이름(`main` 또는 `master`)을 찾아서 클릭합니다.
-    -   나타나는 팝업 메뉴에서 `Tags` 그룹을 찾은 다음, 원하는 태그(예: `v1.0-post-01`)를 선택합니다.
+    -   나타나는 팝업 메뉴에서 `Tags` 그룹을 찾은 다음, 원하는 태그(예: `v1.0.1-post-01`)를 선택합니다.
     -   선택한 태그의 하위 메뉴에서 `Checkout`을 클릭합니다. 이제 1장에 해당하는 코드로 변경되었습니다.
 
 3.  **애플리케이션 실행:**
@@ -42,7 +42,7 @@ backend-onboarding-series/
 
 2.  **1장 코드 가져오기:**
     ```bash
-    git checkout v1.0-post-01
+    git checkout v1.0.1-post-01
     ```
 
 3.  **애플리케이션 실행:**
@@ -59,7 +59,7 @@ backend-onboarding-series/
 
 | Part | 제목 | 태그 | 실행 모듈 |
 | :--- | :---- | :-- | :--- |
-| 1 | 첫 번째 엔드포인트 | `v1.0-post-01` | `part-1-first-endpoint` |
+| 1 | 첫 번째 엔드포인트 | `v1.0.1-post-01` | `part-1-first-endpoint` |
 | 2 | (예정) | | |
 
 ## 사전 요구사항
