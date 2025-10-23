@@ -36,7 +36,7 @@ backend-onboarding-series/
 
 1.  **저장소 복제:**
     ```bash
-    https://github.com/jujin1324/backend-onboarding-series.git
+    git clone https://github.com/jujin1324/backend-onboarding-series.git
     cd backend-onboarding-series
     ```
 
