@@ -52,6 +52,10 @@ backend-onboarding-series/
 
 4.  **결과 확인:**
     웹 브라우저나 `curl`을 사용하여 `http://localhost:8080/posts` 로 접속합니다.
+    ```bash
+    curl http://localhost:8080/posts
+    ```
+
 
 ## 튜토리얼 시리즈 및 태그
 
