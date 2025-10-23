@@ -18,7 +18,7 @@ backend-onboarding-series/
 
 1.  **인텔리제이에서 프로젝트 가져오기:**
     -   인텔리제이 시작 화면에서 `Get from VCS` 버튼을 클릭합니다.
-    -   `URL`에 이 저장소의 주소(`https://github.com/your-username/backend-onboarding-series.git`)를 붙여넣고 `Clone` 버튼을 누릅니다.
+    -   `URL`에 이 저장소의 주소(`https://github.com/jujin1324/backend-onboarding-series.git`)를 붙여넣고 `Clone` 버튼을 누릅니다.
 
 2.  **올바른 버전(태그)으로 전환하기:**
     -   프로젝트가 열리면, 인텔리제이 창의 **오른쪽 하단**에서 현재 Git 브랜치 이름(`main` 또는 `master`)을 찾아서 클릭합니다.
@@ -36,7 +36,7 @@ backend-onboarding-series/
 
 1.  **저장소 복제:**
     ```bash
-    git clone https://github.com/your-username/backend-onboarding-series.git
+    https://github.com/jujin1324/backend-onboarding-series.git
     cd backend-onboarding-series
     ```
 
