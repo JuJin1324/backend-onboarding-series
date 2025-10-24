@@ -65,6 +65,7 @@ You can check the code for other parts by checking out the corresponding Git tag
 | Part | Title | Tag | Execution Module |
 | :--- | :---- | :-- | :--- |
 | 1 | First Endpoint | `v1.0.1-post-01` | `part-1-first-endpoint` |
+| 1 | First Endpoint (Comments Translated) | `v1.0.2-post-01` | `part-1-first-endpoint` |
 | 2 | (Upcoming) | | |
 
 ## Prerequisites
