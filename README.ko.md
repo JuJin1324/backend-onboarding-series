@@ -65,7 +65,7 @@ backend-onboarding-series/
 
 | Part | 제목 | 태그 | 실행 모듈 |
 | :--- | :---- | :-- | :--- |
-| 1 | 첫 번째 엔드포인트 | `v1.0.1-post-01` | `part-1-first-endpoint` |
+| 1 | 첫 번째 엔드포인트 (주석 번역) | `v1.0.2-post-01` | `part-1-first-endpoint` |
 | 2 | (예정) | | |
 
 ## 사전 요구사항
