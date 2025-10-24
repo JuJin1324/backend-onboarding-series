@@ -1,72 +1,73 @@
-이 저장소는 "백엔드 온보딩" 튜토리얼 시리즈를 위한 소스 코드를 관리합니다. 이 가이드는 시리즈의 각 파트 코드를 당신의 컴퓨터에서 실행하는 데 도움을 줄 것입니다。
+[한국어 문서 보기 (View in Korean)](README.ko.md)
 
-## 프로젝트 구성
+This repository manages the source code for the "Backend Onboarding" tutorial series. This guide will help you run the code for each part of the series on your computer.
 
-이 프로젝트는 다음과 같은 주요 디렉터리로 구성되어 있습니다.
+## Project Structure
+
+This project consists of the following main directories:
 
 ```
 backend-onboarding-series/
-├── part-1-first-endpoint/ # 첫 번째 튜토리얼 파트의 코드
-└── scripts/             # 프로젝트 실행 및 테스트 스크립트
+├── part-1-first-endpoint/ # Code for the first tutorial part
+└── scripts/             # Scripts for project execution and testing
 ```
 
-## 코드 실행 방법 (1장 예시)
+## How to Run the Code (Chapter 1 Example)
 
-두 가지 방법 중 편한 것을 선택하여 진행하세요.
+Choose the method that is most convenient for you.
 
-### 방법 1: 인텔리제이(IntelliJ)로 실행하기 (초보자 추천)
+### Method 1: Run with IntelliJ (Recommended for beginners)
 
-1.  **인텔리제이에서 프로젝트 가져오기:**
-    -   인텔리제이 시작 화면에서 `Get from VCS` 혹은 `Clone Repository` 버튼을 클릭합니다.
-    -   `URL`에 이 저장소의 주소(`https://github.com/jujin1324/backend-onboarding-series.git`)를 붙여넣고 `Clone` 버튼을 누릅니다.
+1.  **Import Project in IntelliJ:**
+    -   On the IntelliJ welcome screen, click `Get from VCS` or `Clone Repository`.
+    -   Paste the repository URL (`https://github.com/jujin1324/backend-onboarding-series.git`) into the `URL` field and click `Clone`.
 
-2.  **올바른 버전(태그)으로 전환하기:**
-    -   프로젝트가 열리면, 인텔리제이 창의 **오른쪽 하단**에서 현재 Git 브랜치 이름(`main` 또는 `master`)을 찾아서 클릭합니다.
-    -   나타나는 팝업 메뉴에서 `Tags` 그룹을 찾은 다음, 원하는 태그(예: `v1.0.1-post-01`)를 선택합니다.
-    -   선택한 태그의 하위 메뉴에서 `Checkout`을 클릭합니다. 이제 1장에 해당하는 코드로 변경되었습니다.
+2.  **Switch to the Correct Version (Tag):**
+    -   Once the project is open, find and click the current Git branch name (`main` or `master`) in the **bottom right** of the IntelliJ window.
+    -   In the pop-up menu, find the `Tags` group and select the desired tag (e.g., `v1.0.1-post-01`).
+    -   Click `Checkout` from the sub-menu of the selected tag. The code has now been switched to Chapter 1.
 
-3.  **애플리케이션 실행:**
-    -   `part-1-first-endpoint` > `src` > `main` > `java` > `com.onboarding.backend` 경로로 이동하여 `Application.java` 파일을 찾습니다.
-    -   `main` 메소드 옆에 있는 녹색 'Run' 아이콘을 클릭하여 애플리케이션을 실행합니다。
+3.  **Run the Application:**
+    -   Navigate to `part-1-first-endpoint` > `src` > `main` > `java` > `com.onboarding.backend` and find the `Application.java` file.
+    -   Click the green 'Run' icon next to the `main` method to execute the application.
 
-4.  **결과 확인:**
-    -   애플리케이션이 실행되면, 웹 브라우저에서 `http://localhost:8080/posts` 로 접속하여 JSON 결과가 잘 나오는지 확인합니다.
+4.  **Verify Results:**
+    -   Once the application is running, access `http://localhost:8080/posts` in your web browser to confirm that the JSON result is displayed correctly.
 
-### 방법 2: 터미널(명령줄)로 실행하기
+### Method 2: Run with Terminal (Command Line)
 
-1.  **저장소 복제:**
+1.  **Clone the Repository:**
     ```bash
     git clone https://github.com/jujin1324/backend-onboarding-series.git
     cd backend-onboarding-series
     ```
 
-2.  **1장 코드 가져오기:**
+2.  **Get Chapter 1 Code:**
     ```bash
     git checkout v1.0.1-post-01
     ```
 
-3.  **애플리케이션 실행:**
+3.  **Run the Application:**
     ```bash
     ./gradlew :part-1-first-endpoint:bootRun
     ```
 
-4.  **결과 확인:**
-    웹 브라우저나 `curl`을 사용하여 `http://localhost:8080/posts` 로 접속합니다.
+4.  **Verify Results:**
+    Access `http://localhost:8080/posts` using a web browser or `curl`.
     ```bash
     curl http://localhost:8080/posts
     ```
 
+## Tutorial Series and Tags
 
-## 튜토리얼 시리즈 및 태그
+You can check the code for other parts by checking out the corresponding Git tags.
 
-다른 파트의 코드는 해당 Git 태그를 `checkout`하여 확인할 수 있습니다.
-
-| Part | 제목 | 태그 | 실행 모듈 |
+| Part | Title | Tag | Execution Module |
 | :--- | :---- | :-- | :--- |
-| 1 | 첫 번째 엔드포인트 | `v1.0.1-post-01` | `part-1-first-endpoint` |
-| 2 | (예정) | | |
+| 1 | First Endpoint | `v1.0.1-post-01` | `part-1-first-endpoint` |
+| 2 | (Upcoming) | | |
 
-## 사전 요구사항
+## Prerequisites
 
 - Java 17
 - Gradle 8.9
