@@ -1,2 +1,3 @@
 rootProject.name = 'backend-onboarding-series'
 include 'part-1-first-endpoint'
+include 'part-2-openapi-spec'

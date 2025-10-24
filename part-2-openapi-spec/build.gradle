@@ -1,0 +1,11 @@
+bootJar {
+    enabled = true // This module is created as an executable Jar.
+}
+
+jar {
+    enabled = false
+}
+
+dependencies {
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0'
+}
