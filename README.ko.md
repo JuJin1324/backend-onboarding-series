@@ -7,7 +7,7 @@
 이 프로젝트는 다음과 같은 주요 디렉터리로 구성되어 있습니다.
 
 ```
-backend-onboarding-series/
+business-first-backend/
 ├── part-1-first-endpoint/ # 첫 번째 튜토리얼 파트의 코드
 ├── part-2-openapi-spec/   # 두 번째 튜토리얼 파트의 코드
 └── scripts/             # 프로젝트 실행 및 테스트 스크립트

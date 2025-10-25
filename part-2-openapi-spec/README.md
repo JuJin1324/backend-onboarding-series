@@ -7,7 +7,7 @@ This document provides instructions on how to run the code for Part 2 of the tut
 ### Method 1: Run with IntelliJ
 
 1.  **Run the Application:**
-    -   Navigate to `part-2-openapi-spec` > `src` > `main` > `java` > `com.onboarding.backend` and find the `Part2OpenApiSpecApplication.java` file.
+    -   Navigate to `part-2-openapi-spec` > `src` > `main` > `java` > `com.businessfirst.backend` and find the `Part2OpenApiSpecApplication.java` file.
     -   Click the green 'Run' icon next to the `main` method to execute the application.
 
 2.  **Verify Results:**

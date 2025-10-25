@@ -7,7 +7,7 @@
 ### 방법 1: 인텔리제이(IntelliJ)로 실행하기
 
 1.  **애플리케이션 실행:**
-    -   `part-2-openapi-spec` > `src` > `main` > `java` > `com.onboarding.backend` 경로로 이동하여 `Part2OpenApiSpecApplication.java` 파일을 찾습니다.
+    -   `part-2-openapi-spec` > `src` > `main` > `java` > `com.businessfirst.backend` 경로로 이동하여 `Part2OpenApiSpecApplication.java` 파일을 찾습니다.
     -   `main` 메소드 옆에 있는 녹색 'Run' 아이콘을 클릭하여 애플리케이션을 실행합니다.
 
 2.  **결과 확인:**

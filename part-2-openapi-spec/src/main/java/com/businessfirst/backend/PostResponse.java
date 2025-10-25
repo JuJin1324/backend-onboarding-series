@@ -1,4 +1,4 @@
-package com.onboarding.backend;
+package com.businessfirst.backend;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 

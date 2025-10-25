@@ -1,4 +1,4 @@
-package com.onboarding.backend;
+package com.businessfirst.backend;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;

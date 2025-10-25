@@ -7,7 +7,7 @@ This repository manages the source code for the "Backend Onboarding" tutorial se
 This project consists of the following main directories:
 
 ```
-backend-onboarding-series/
+business-first-backend/
 ├── part-1-first-endpoint/ # Code for the first tutorial part
 ├── part-2-openapi-spec/   # Code for the second tutorial part
 └── scripts/             # Scripts for project execution and testing

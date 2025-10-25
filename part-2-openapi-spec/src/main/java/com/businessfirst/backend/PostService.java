@@ -1,4 +1,4 @@
-package com.onboarding.backend;
+package com.businessfirst.backend;
 
 import org.springframework.stereotype.Service;
 
