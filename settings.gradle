@@ -1,3 +1,4 @@
 rootProject.name = 'business-first-backend'
 include 'part-1-first-endpoint'
 include 'part-2-openapi-spec'
+include 'part-3-persistence'

@@ -1,0 +1,14 @@
+dependencies {
+    // Dependency for using JPA (Java Persistence API) to interact with databases
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    // H2, a lightweight database that can run in-memory or file-based mode
+    runtimeOnly 'com.h2database:h2'
+}
+
+bootJar {
+    enabled = true // Makes this module an executable Jar
+}
+
+jar {
+    enabled = false
+}

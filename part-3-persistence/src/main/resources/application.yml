@@ -1,0 +1,16 @@
+# Database connection settings (H2 file mode)
+# Data will be saved to data/part3db.mv.db in the project root, ensuring persistence across application restarts.
+spring:
+  datasource:
+    url: jdbc:h2:./data/part3db
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+
+  # JPA (Java Persistence API) settings
+  # Configures JPA to use H2 database specific SQL dialect
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    # Automatically creates or updates tables based on Entity classes when the application runs
+    hibernate:
+      ddl-auto: update
